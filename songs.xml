@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE canciones SYSTEM "DTDSongs.dtd">
+
+<canciones>
+
+    <cancion>
+        <duracion>4:47 minutos</duracion>
+        <año>2008</año>
+
+        <titulo>Give it to me</titulo>
+
+        <compositores>
+
+            <compositor>
+
+                <nombre>Pharrell</nombre>
+                <apellidos>Williams</apellidos>
+
+            </compositor>
+
+        </compositores>
+
+        <productores>
+
+            <productor>
+
+                <nombre>Pharrell</nombre>
+                <apellidos>Williams</apellidos>
+
+            </productor>
+
+        </productores>
+
+        <sello>Warner Bros. Records</sello>
+
+        <artista>Madonna</artista>
+
+    </cancion>
+
+    <cancion>
+        <duracion>4:23 minutos</duracion>
+        <año>2021</año>
+
+        <titulo>AMOR DE CINE</titulo>
+
+        <compositores>
+
+            <compositor>
+
+                <nombre>Emiliano</nombre>
+                <apellidos>Rodriguez</apellidos>
+
+            </compositor>
+
+            <compositor>
+
+                <nombre>Humberto</nombre>
+                <apellidos>Rodriguez</apellidos>
+
+            </compositor>
+
+        </compositores>
+
+        <productores>
+
+            <productor>
+
+                <nombre>Humbe</nombre>
+
+            </productor>
+
+            <productor>
+
+                <nombre>Emiliano</nombre>
+                <apellidos>Rodriguez</apellidos>
+
+            </productor>
+
+        </productores>
+
+        <sello>Sony Music México</sello>
+
+        <artista>Humbe</artista>
+
+    </cancion>
+
+
+    <cancion>
+        <duracion>2:27 minutos</duracion>
+        <año>2023</año>
+
+        <titulo>EME</titulo>
+
+        <compositores>
+
+            <compositor>
+
+                <nombre>Rodrigo</nombre>
+                <apellidos>Torres de la Garza</apellidos>
+
+            </compositor>
+
+        </compositores>
+
+        <productores>
+
+            <productor>
+
+                <nombre>Nsqk</nombre>
+
+            </productor>
+
+        </productores>
+
+        <sello>Honey</sello>
+
+        <artista>Nsqk</artista>
+
+    </cancion>
+
+
+</canciones>
+

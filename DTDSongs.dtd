@@ -1,0 +1,17 @@
+
+
+<!DOCTYPE canciones [
+        <!ELEMENT canciones (cancion)*>
+        <!ELEMENT cancion (duracion|año|titulo|compositores|productores|sello|artista)*>
+        <!ELEMENT duracion (#PCDATA)>
+        <!ELEMENT año (#PCDATA)>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT compositores (compositor)*>
+        <!ELEMENT compositor (nombre|apellidos)*>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT apellidos (#PCDATA)>
+        <!ELEMENT productores (productor)*>
+        <!ELEMENT productor (nombre|apellidos)*>
+        <!ELEMENT sello (#PCDATA)>
+        <!ELEMENT artista (#PCDATA)>
+        ]>
