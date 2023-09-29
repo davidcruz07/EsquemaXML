@@ -2,9 +2,7 @@
 
 <canciones>
 
-    <cancion>
-        <duracion>4:47 minutos</duracion>
-        <año>2008</año>
+    <cancion duracion = "4:47 minutos" año = "2008">
 
         <titulo>Give it to me</titulo>
 
@@ -36,9 +34,7 @@
 
     </cancion>
 
-    <cancion>
-        <duracion>4:23 minutos</duracion>
-        <año>2021</año>
+    <cancion duracion = "4:23 minutos" año = "2021">
 
         <titulo>AMOR DE CINE</titulo>
 
@@ -84,9 +80,7 @@
     </cancion>
 
 
-    <cancion>
-        <duracion>2:27 minutos</duracion>
-        <año>2023</año>
+    <cancion duracion="2:27 minutos" año="2023">
 
         <titulo>EME</titulo>
 

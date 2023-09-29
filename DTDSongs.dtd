@@ -2,9 +2,10 @@
 
 <!DOCTYPE canciones [
         <!ELEMENT canciones (cancion)*>
-        <!ELEMENT cancion (duracion|año|titulo|compositores|productores|sello|artista)*>
-        <!ELEMENT duracion (#PCDATA)>
-        <!ELEMENT año (#PCDATA)>
+        <!ELEMENT cancion (titulo|compositores|productores|sello|artista)*>
+        <!ATTLIST cancion
+                año CDATA #REQUIRED
+                duracion CDATA #REQUIRED>
         <!ELEMENT titulo (#PCDATA)>
         <!ELEMENT compositores (compositor)*>
         <!ELEMENT compositor (nombre|apellidos)*>
