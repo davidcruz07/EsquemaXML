@@ -1,18 +1,15 @@
-
-
-<!DOCTYPE canciones [
-        <!ELEMENT canciones (cancion)*>
-        <!ELEMENT cancion (titulo|compositores|productores|sello|artista)*>
+<!ELEMENT canciones (cancion*)>
+        <!ELEMENT cancion (titulo, compositores*, productores*, sello?, artista?)>
         <!ATTLIST cancion
                 año CDATA #REQUIRED
                 duracion CDATA #REQUIRED>
         <!ELEMENT titulo (#PCDATA)>
-        <!ELEMENT compositores (compositor)*>
-        <!ELEMENT compositor (nombre|apellidos)*>
+        <!ELEMENT compositores (compositor+)>
+        <!ELEMENT compositor (nombre?, apellidos?)>
         <!ELEMENT nombre (#PCDATA)>
         <!ELEMENT apellidos (#PCDATA)>
-        <!ELEMENT productores (productor)*>
-        <!ELEMENT productor (nombre|apellidos)*>
+        <!ELEMENT productores (productor+)>
+        <!ELEMENT productor (nombre?, apellidos?)>
         <!ELEMENT sello (#PCDATA)>
         <!ELEMENT artista (#PCDATA)>
-        ]>
+

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE canciones SYSTEM "DTDSongs.dtd">
+
 <canciones>
 
-    <cancion duracion = "4:47 minutos" año = "2008">
+    <cancion duracion="4:47" año="2008">
 
         <titulo>Give it to me</titulo>
 
@@ -32,9 +34,10 @@
 
         <artista>Madonna</artista>
 
+
     </cancion>
 
-    <cancion duracion = "4:23 minutos" año = "2021">
+    <cancion duracion="4:23" año="2021">
 
         <titulo>AMOR DE CINE</titulo>
 
@@ -80,7 +83,7 @@
     </cancion>
 
 
-    <cancion duracion="2:27 minutos" año="2023">
+    <cancion duracion="2:27" año="2023">
 
         <titulo>EME</titulo>
 
@@ -111,6 +114,4 @@
 
     </cancion>
 
-
 </canciones>
-
